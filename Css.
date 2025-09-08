@@ -1,0 +1,147 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sachin — Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent:#0f6cff;
+      --muted:#6b7280;
+      --paper:#ffffff;
+      --bg:#f3f4f6;
+      --dark:#0f1724;
+    }
+    html,body{height:100%;background:var(--bg);font-family:Inter,system-ui,Arial,sans-serif;color:var(--dark);}
+    .page{width:210mm;min-height:297mm;margin:20px auto;padding:28mm 20mm;background:var(--paper);box-shadow:0 10px 30px rgba(15,23,36,0.12);box-sizing:border-box}
+    .header{display:flex;align-items:center;justify-content:space-between;border-bottom:4px solid rgba(15,108,255,0.08);padding-bottom:8px}
+    .name{font-size:28px;font-weight:800}
+    .sub{color:var(--muted);font-weight:600}
+    .contact{font-size:14px;text-align:right;color:var(--muted)}
+    .layout{display:grid;grid-template-columns:1fr 2fr;gap:20px;margin-top:18px}
+    .card{background:linear-gradient(180deg,rgba(15,108,255,0.02),transparent);padding:14px;border-radius:10px}
+    .section{margin-bottom:14px}
+    h3{margin:0 0 8px 0;font-size:14px;color:var(--accent);font-weight:700}
+    ul{margin:0;padding-left:18px;color:var(--dark)}
+    .skill-badge{display:inline-block;padding:6px 8px;margin:4px;border-radius:6px;background:#eef6ff;font-weight:600;font-size:13px}
+    .meta{color:var(--muted);font-size:13px}
+    .ach-year{font-weight:700;color:var(--accent);margin-right:8px}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .box{background:transparent;padding:8px;border-radius:8px}
+    .cert{font-size:13px;margin-bottom:6px}
+    .footer-note{font-size:12px;color:var(--muted);margin-top:18px}
+    /* Print-friendly */
+    @media print{
+      body{background:white}
+      .page{box-shadow:none;margin:0;width:auto;min-height:auto;padding:20mm}
+    }
+  </style>
+</head>
+<body>
+  <div class="page" role="document">
+    <div class="header">
+      <div>
+        <div class="name">SACHIN</div>
+        <div class="sub">Aspiring Full Stack Developer — B.Sc Computer Science (UG 2024–2026)</div>
+      </div>
+      <div class="contact">
+        <div>📞 6384969749</div>
+        <div>✉️ sachinmadhavan100@gmail.com</div>
+        <div class="meta">Languages: English • Tamil</div>
+      </div>
+    </div><div class="layout">
+  <!-- Left column -->
+  <aside>
+    <div class="card section">
+      <h3>PROFILE</h3>
+      <p class="meta">Passionate Computer Science student with expertise in programming, networking, and multimedia tools. Strong leadership experience; seeking to contribute to impactful projects as a software developer.</p>
+    </div>
+
+    <div class="card section">
+      <h3>TECHNICAL SKILLS</h3>
+      <div style="margin-top:8px">
+        <div class="meta">Programming</div>
+        <div style="margin-top:6px">
+          <span class="skill-badge">HTML</span>
+          <span class="skill-badge">CSS</span>
+          <span class="skill-badge">Python</span>
+          <span class="skill-badge">Java</span>
+        </div>
+        <div class="meta" style="margin-top:10px">Tools & Multimedia</div>
+        <div style="margin-top:6px">
+          <span class="skill-badge">After Effects</span>
+          <span class="skill-badge">Photoshop</span>
+          <span class="skill-badge">Premiere Pro</span>
+          <span class="skill-badge">CapCut</span>
+        </div>
+        <div class="meta" style="margin-top:10px">Networking</div>
+        <div style="margin-top:6px">
+          <span class="skill-badge">IP Addressing</span>
+          <span class="skill-badge">LAN/WAN</span>
+          <span class="skill-badge">Network Security</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card section">
+      <h3>KEY SKILLS</h3>
+      <ul>
+        <li>Communication</li>
+        <li>Adaptability</li>
+        <li>Teamwork</li>
+        <li>Time Management</li>
+        <li>System Administration</li>
+        <li>Leadership</li>
+      </ul>
+    </div>
+
+    <div class="card section">
+      <h3>LANGUAGES</h3>
+      <p class="meta">English, Tamil</p>
+    </div>
+  </aside>
+
+  <!-- Right column -->
+  <main>
+    <div class="section">
+      <h3>ACHIEVEMENTS & ROLES</h3>
+      <div style="margin-top:8px">
+        <div class="box"><span class="ach-year">#2023</span>General Secretary, Department of Computer Science</div>
+        <div class="box"><span class="ach-year">2024</span>General Secretary, Department of English • System Coordinator, Department of Computer Science • NSS Student Member</div>
+        <div class="box"><span class="ach-year">2025</span>General Secretary, Department of Computer Science • Vice President, Rotaract Club • Public Affairs Officer, Department of English • System Coordinator, Department of Tamil</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>CERTIFICATIONS / TRAININGS</h3>
+      <div style="margin-top:8px">
+        <div class="cert">• Networking Fundamentals — HCL Internship (2025)</div>
+        <div class="cert">• Python Programming — Coursera (2024)</div>
+        <div class="cert">• Foundations of UI/UX Design — Google</div>
+        <div class="cert">• Introduction to Front-End Development — Meta</div>
+        <div class="cert">• Ethically Hack the Planet — Part 1 & Part 2 — Udemy</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>EDUCATION</h3>
+      <div style="margin-top:8px">
+        <div class="box"><strong>UG — B.Sc Computer Science</strong> (2024 — 2026)</div>
+        <div class="box" style="margin-top:6px"><strong>Schooling</strong> — Velammal Matric Hr. Sec School, Ponneri (2012 — 2023)</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>CONTACT</h3>
+      <div style="margin-top:8px" class="meta">Phone: 6384969749<br>Email: sachinmadhavan100@gmail.com</div>
+    </div>
+
+    <div class="footer-note">Tip: To save this page as an image: open this file in your browser, press <strong>Print</strong> and select <em>Save as PDF</em> or take a high-resolution screenshot. If you want, I can export it to PDF/PNG for you — tell me which format you prefer.</div>
+  </main>
+</div>
+
+  </div>
+</body>
+</html>
